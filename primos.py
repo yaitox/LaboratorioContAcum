@@ -1,4 +1,8 @@
-a=1
-b=1
-if a%b==0:
-    print("es divisible")
+
+contCero=0
+a=int(input("cuanto numeros quiere evaluar"))
+for i in range(1,a):
+    residuo=a%i
+
+    print(residuo)
+
